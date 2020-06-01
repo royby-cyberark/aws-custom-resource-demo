@@ -15,8 +15,11 @@ CDK Demo implementing an S3 Object custom resource using AWSCustomResource
 * Optionally update the id in the CdkStack instantiation in app.py to set your stack name
 * Deploy: `cdk deploy`
 * Do epic stuff
+
+### Wraping up
 * Destory the stack: `cdk detroy`
 
 *NOTE*: Make sure that you have a working aws profile which you can deploy to.
+
 if you're not sure, follow the [CDK Getting started guide](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 
