@@ -25,8 +25,7 @@ class S3ObjectResource(core.Construct):
 
     def __init__(self, scope: core.Construct, id: str, bucket_name: str, object_key: str, object_content: Any, log_retention=None) -> None:
         super().__init__(scope, id)
-        # The code that defines your stack goes here
-
+        
         # This code is for demo puposes, we could have simple passed the bucket arn, but you can use this with bucket external to your stack
         target_bucket = s3.Bucket.from_bucket_name(
             scope=scope, id="CustomResourceDemoBucketExternal", bucket_name=bucket_name)
