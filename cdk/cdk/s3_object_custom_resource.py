@@ -45,8 +45,8 @@ class S3ObjectResource(core.Construct):
                           log_retention=log_retention,
                           on_create=on_create, on_update=on_update, on_delete=on_delete,
                           resource_type='Custom::AWS-S3-Object',
-                          role=lambda_role,
-                          timeout=None)  # Timeout of the Lambda implementing this custom resource. Default: Duration.minutes(2)
+                          role=lambda_role)
+                          # You can set the lambda Timeout by passing the Timeout (Default: Duration.minutes(2)
 
     def get_on_create_update(self, bucket_name, object_key, object_content):
         create_params = {
