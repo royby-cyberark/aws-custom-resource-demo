@@ -14,6 +14,7 @@ if you're not sure, follow the [CDK Getting started guide](https://docs.aws.amaz
 
 ### Deploying the stack
 * Clone this repo, change into the cdk dir
+* Create the Python virtual env, for example `python3 -m venv .env`
 * Activate virtual env: 
    * Linux/Macos: `source .env/bin/activate`
    * Windows: `.env\bin\activate`
