@@ -3,6 +3,10 @@ CDK Demo implementing an S3 Object custom resource using AWSCustomResource
 
 *WARNING!* Deploying this projet will create some AWS resources. make sure you are aware of the costs and be sure to destory the stack when you are done by running `cdk destory`
 
+### Prerequisites:
+* Working python environment with pip and venv
+
+### Deploying the stack
 * Clone this repo
 * Activate virtual env: 
    * Linux/Macos: `source .env/bin/activate`
