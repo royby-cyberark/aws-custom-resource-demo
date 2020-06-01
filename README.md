@@ -19,7 +19,6 @@ if you're not sure, follow the [CDK Getting started guide](https://docs.aws.amaz
    * Linux/Macos: `source .env/bin/activate`
    * Windows: `.env\bin\activate`
 * Install packages: `pip install -r requirements.txt`
-* Optionally update the id in the CdkStack instantiation in app.py to set your stack name
 * Deploy: `cdk deploy`
 * Do epic stuff
 
