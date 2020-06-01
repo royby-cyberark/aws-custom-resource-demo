@@ -13,7 +13,7 @@ if you're not sure, follow the [CDK Getting started guide](https://docs.aws.amaz
 * Working python environment with pip and venv
 
 ### Deploying the stack
-* Clone this repo
+* Clone this repo, change into the cdk dir
 * Activate virtual env: 
    * Linux/Macos: `source .env/bin/activate`
    * Windows: `.env\bin\activate`
