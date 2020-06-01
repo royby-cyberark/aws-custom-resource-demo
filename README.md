@@ -16,6 +16,11 @@ CDK Demo implementing an S3 Object custom resource using AWSCustomResource
 * Deploy: `cdk deploy`
 * Do epic stuff
 
+### Testing the custom resource
+* After a successful deployment, open the CloudFormation stack, resources, click on the bucket resource and open the new object, inspect its content.
+* Make changes to the object_content dict in cdk_stack.py, redeploy, check the object content and versions.
+* Destory the stack, destruction is successful only if your resources is also destroyed.
+
 ### Wraping up
 * Destory the stack: `cdk detroy`
 
